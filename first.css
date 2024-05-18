@@ -1,0 +1,19 @@
+body 
+{
+    background-color: aqua;
+}
+input[type="text"] 
+{
+    background-color: red;
+}
+
+input[type="submit"],input[type="reset"],input[type="button"]
+{
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    border-bottom:5px black solid;
+    margin: 10px;
+    font-size: 24px;
+    border-radius: 10px 0px;
+}
