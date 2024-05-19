@@ -1,0 +1,149 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a 
+{
+    text-decoration: none;
+}
+body 
+{
+   
+    background-image:url(./images/bodybkg.gif) ;
+    background-repeat: repeat;
+    font-family: tahoma;
+}
+:root 
+{
+    --titlecolor:#BD9559;
+    --menubg:#271408;
+}
+main
+{
+    width: 960px;
+    
+    height: 600px;
+    margin: 0px auto;
+}
+#title 
+{
+    font-size: 36px;
+    color:var(--titlecolor);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    margin-top:10px;
+}
+/*navigation bar setting start here*/
+nav 
+{
+    background-color: var(--menubg);
+    height: 44px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+nav ul 
+{
+    list-style: none;
+}
+nav ul li 
+{
+    width: 160px;
+    float: left;
+    text-align: center;
+}
+nav ul li a 
+{
+    color: white;
+    line-height: 44px;
+    
+    font-size: 14px;
+    font-weight: bold   ;
+}
+nav ul li a:hover 
+{
+    color:var(--titlecolor);
+ }
+
+
+/*navigation bar setting end here*/
+
+#intro-banner
+{
+    height: 220px;
+    background-image: url(./images/introbkg.png);
+    background-repeat: repeat-x;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+#intro-banner img 
+{
+    right: 0px;
+    position: absolute;
+}
+
+#intro-banner h1 
+{
+    position: relative;
+    left:40px; 
+    top:60px;
+    font-weight: normal;
+    color:white;
+}
+#intro-banner p 
+{
+    position: relative;
+    width: 350px;
+    left:40px;  
+    top:70px;
+    color:var(--titlecolor);
+    font-size: 13px;
+    line-height: 1.5;  
+    font-weight: bold;  
+}    
+#container 
+{
+    background-color: #F2EDE7;
+    
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.item
+{
+    width: 220px;
+    height: 380px;
+    margin: 5px 2px;
+    background-color: var(--titlecolor);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.item img 
+{
+    border:10px solid white;
+    width: 160px;
+    height: 140px;
+    margin: 10px 0px;
+}
+.item p 
+{
+    color:black;
+    font-size: 13px;
+    line-height: 1.5;  
+    font-weight: normal; 
+    margin-top: 10px;
+}
+.item a 
+{
+    color:white;
+    margin: 10px 0px;
+    text-decoration: underline;
+}
+.item h2 
+{
+    font-weight: normal;
+}
